@@ -1,0 +1,15 @@
+.clock-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+#clock .js-clock {
+  margin-top: -5px;
+  margin-bottom: 50px;
+}
+#line {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid tomato;
+}

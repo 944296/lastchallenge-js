@@ -1,0 +1,9 @@
+#login-form input {
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: 5px solid tomato;
+  text-align: center;
+}
+#login-form input:last-child {
+  background-color: tomato;
+}

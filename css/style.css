@@ -1,0 +1,37 @@
+@import "clock.css";
+@import "login.css";
+@import "todo.css";
+@import "luck.css";
+@import "weather.css";
+@import "any.css";
+
+body {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+  background: linear-gradient(90deg, #e66465, #9198e5);
+}
+.box {
+  width: 500px;
+  height: 670px;
+  border-radius: 50px;
+  background-color: #ecc958;
+  margin: 0px 10px;
+  align-items: center;
+  text-align: center;
+  color: #cd8f1b;
+}
+.clock-box,
+.luck-box,
+.weather-box,
+.any-box {
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+  background-color: #f2dd84;
+  margin: 20px 50px;
+}
+
+.hidden {
+  display: none;
+}

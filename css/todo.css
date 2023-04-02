@@ -1,0 +1,14 @@
+#todo-form input {
+  width: 330px;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 50px;
+  box-shadow: 5px 5px tomato;
+  text-align: center;
+}
+#todo-list {
+  margin: 30px 50px;
+  color: black;
+  font-size: 25px;
+  text-align: left;
+}

@@ -1,0 +1,17 @@
+.any-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.moving {
+  animation: rotateCog 2s linear infinite;
+}

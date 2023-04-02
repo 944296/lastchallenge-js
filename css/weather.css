@@ -1,0 +1,8 @@
+.weather-box,
+#weather {
+  display: flex;
+  flex-direction: column;
+}
+#weather span {
+  font-size: 30px;
+}
